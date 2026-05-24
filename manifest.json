@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Corresponding Author Pro",
+  "version": "1.0.10",
+  "description": "自动抓取并显示通讯作者。",
+  "author": "Codex",
+  "applications": {
+    "zotero": {
+      "id": "corresponding-author-pro@codex.org",
+      "update_url": "https://example.com/updates.json",
+      "strict_min_version": "6.99",
+      "strict_max_version": "10.*"
+    }
+  },
+  "browser_specific_settings": {
+    "zotero": {
+      "id": "corresponding-author-pro@codex.org",
+      "update_url": "https://example.com/updates.json",
+      "strict_min_version": "6.99",
+      "strict_max_version": "10.*"
+    }
+  }
+}
