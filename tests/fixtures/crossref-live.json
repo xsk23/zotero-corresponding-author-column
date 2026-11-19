@@ -1,0 +1,55 @@
+{
+  "message": {
+    "DOI": "10.1161/01.res.12.2.145",
+    "author": [
+      {
+        "given": "BORYS",
+        "family": "SURAWICZ",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Division of Experimental Medicine and the Metabolic Unit of the Department of Medicine, University of Vermont, College of Medicine, Burlington, Vermont"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "ARTHUR S.",
+        "family": "KUNIN",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Experimental Medicine and the Metabolic Unit of the Department of Medicine, University of Vermont, College of Medicine, Burlington, Vermont"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "ETHAN A. H.",
+        "family": "SIMS",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Experimental Medicine and the Metabolic Unit of the Department of Medicine, University of Vermont, College of Medicine, Burlington, Vermont"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ]
+  }
+}

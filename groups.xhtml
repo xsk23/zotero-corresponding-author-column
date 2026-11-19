@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        xmlns:html="http://www.w3.org/1999/xhtml" title="课题组与通讯作者" width="820" height="640">
+  <html:style>
+    :root { color-scheme: light dark; }
+    .content { font: 14px system-ui, sans-serif; padding: 22px; overflow: auto; height: 100%; box-sizing: border-box; }
+    h2 { margin: 0 0 12px; font-size: 21px; } p { line-height: 1.6; }
+    .row { display: grid; grid-template-columns: 190px 1fr 64px; gap: 10px; margin-bottom: 12px; align-items: start; }
+    input, textarea, button { font: inherit; padding: 8px; box-sizing: border-box; }
+    textarea { min-height: 72px; resize: vertical; width: 100%; }
+    input { width: 100%; } button { cursor: pointer; } .actions { display: flex; gap: 10px; margin: 16px 0; flex-wrap: wrap; }
+    #status { white-space: pre-wrap; line-height: 1.6; } .hint { opacity: .8; } button:disabled { cursor: wait; }
+  </html:style>
+  <html:div class="content" flex="1">
+    <html:h2>课题组与通讯作者</html:h2>
+    <html:p id="library"/>
+    <html:p class="hint">每行一个课题组，作者可留空。保存后即可多选文献，右键选择“将选中文献归入已有课题组”。如需按作者自动归类，可填写作者及别名，用分号分隔，例如：John Smith; J. Smith; 张三。同一作者只能对应一个课题组；手动归组优先于作者规则。</html:p>
+    <html:div class="row"><html:strong>课题组名称</html:strong><html:strong>通讯作者及别名（可选）</html:strong><html:span/></html:div>
+    <html:div id="rows"/>
+    <html:button id="add" type="button">＋ 添加课题组</html:button>
+    <html:div class="actions">
+      <html:button id="save" type="button">保存规则</html:button>
+      <html:button id="apply" type="button">保存并归类当前文库全部文献</html:button>
+      <html:button id="close" type="button">关闭</html:button>
+    </html:div>
+    <html:p class="hint">规则按文库分别保存于本机插件设置。归类结果写入“其它”字段和“课题组/名称”标签，可随 Zotero 条目同步。删除或修改规则后，重新归类即可更新原分类。此窗口不会执行通讯作者联网识别。</html:p>
+    <html:div id="status" role="status"/>
+  </html:div>
+  <html:script src="groups.js"/>
+</window>

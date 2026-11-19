@@ -1,0 +1,12 @@
+{
+  "name": "zotero-corresponding-author-pro",
+  "private": true,
+  "version": "1.10.0",
+  "scripts": {
+    "test": "node --test tests/plugin.test.cjs tests/source-pages.test.cjs && python -m unittest discover -s tests -p test_*.py",
+    "build": "python build.py"
+  },
+  "devDependencies": {
+    "linkedom": "0.18.12"
+  }
+}

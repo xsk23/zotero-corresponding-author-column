@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Corresponding Author Pro",
-  "version": "1.0.10",
-  "description": "自动抓取并显示通讯作者。",
+  "version": "1.10.0",
+  "description": "通讯作者与课题组分类；获取作者机构，在条目窗格显示并按机构归类。",
   "author": "Codex",
   "applications": {
     "zotero": {
